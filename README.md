@@ -3,7 +3,7 @@ Spark Core and SmartThings
 
 This is a sample application using [Spark Core][1] and [SmartThings][2]. 
 
-The Spark Core application uses DHT22 Temperature and Humidity Sensor to read the Temperateure and Humidity value. The application defines two Spark.function to read temperature and humidity.
+The Spark Core application uses DHT22 Temperature and Humidity Sensor for Temperateure and Humidity value and defines two Spark.function to read these sensor values.
 
 The SmartThings application defines a new Device Type and uses Spark Core APIs to read the sensor values. The device type specifies the "Polling" capability but only sometimes it is working (Raised the issue and I am awaiting SmartThings reply on this)
 
@@ -28,7 +28,7 @@ https://gist.github.com/Dianoga/6055918
 ![enter image description here][4]
 
 
-  [1]: https://www.spark.io/
+  [1]: http://www.spark.io/
   [2]: http://www.smartthings.com/
   [3]: https://raw.githubusercontent.com/krvarma/SmartThings_SparkCore_Sensor/master/mobileapp.PNG
   [4]: https://raw.githubusercontent.com/krvarma/SmartThings_SparkCore_Sensor/master/sparkcore.JPG
