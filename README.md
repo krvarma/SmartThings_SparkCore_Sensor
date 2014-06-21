@@ -7,9 +7,11 @@ The Spark Core application uses DHT22 Sensor for Temperature and Humidity value 
 
 The SmartThings application defines a new Device Type and uses Spark Core APIs to read the sensor values. The device type specifies the "Polling" capability but only sometimes it is working (Raised the issue and I am awaiting SmartThings reply on this)
 
-**Reference and Inspiration**
+**Wiring**
 
-https://gist.github.com/Dianoga/6055918
+ 1. DHT 3.3v to 3.3v 
+ 2. HT GND to GND 
+ 3. HT SIG to D4
 
 **Installation**
 
@@ -27,6 +29,9 @@ https://gist.github.com/Dianoga/6055918
 
 ![enter image description here][4]
 
+**Reference and Inspiration**
+
+https://gist.github.com/Dianoga/6055918
 
   [1]: http://www.spark.io/
   [2]: http://www.smartthings.com/
